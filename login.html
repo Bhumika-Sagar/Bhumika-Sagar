@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>ZIPY Login</title>
-    <!-- <link rel="stylesheet" type="text/CSS" href="/home/adatta/Documents/firstpage/Home.css"> -->
-    <style type="text/CSS">
-        .rytbtn{
-            background-color: blue;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/CSS" href="./login.css">
+
 </head>
+
 <body>
-    <header>
-        <div class="rytContent">
-            <span>New here?</span>
-            <input type="button" value="Sign up">
+    <div class="bodyContent">
+        <div id="header">
+            <span >
+                <img src="./logo.svg">
+            </span>
+            <span class="rytContent">
+                <span class="text" >New here?</span>
+                <input class="signUp" type="button" value="Sign up">
+            </span>
         </div>
-    </header>
+
+        <div class="body-elements">
+            <div class="wlcm">
+                <b>Welcome Back! We missed you.</b>
+            </div>
+            <div >
+                <img  class="googleImage" src="./googleIcon.svg" >
+                <button class="signUpGoogle">Sign up with google</button>
+            </div>
+            <div class="sign-option">
+                or , sign in with email
+            </div>
+            <div >
+                <input class="emailInfo" type="email" value="Email ID">
+            </div>
+            <div>
+                <input  class="pswrd" type="password" value="Password">
+            </div>
+            <div >
+                <button class="signUpEmail">
+                    Sign in with Email </button>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
