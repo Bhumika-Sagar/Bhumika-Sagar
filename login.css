@@ -4,63 +4,76 @@ body {
     
 }
  
- #header {
+ .header {
      box-sizing: border-box;
      padding: 24px 40px 24px 40px;
      height: 80px;
      background-color: #32394E;
  }
- 
- 
+
  .rytContent{
-     float:right;
-     color:#ACB0C1
-     
- }
+  float:right;
+  color:#ACB0C1
+  
+}
 
- .text {
-    padding-right: 12px;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: 'Lato';
+.text {
+  padding-right: 12px;
+  
+  font-family: 'Lato';
+  font-size: 16px;
+  letter-spacing: 0;
+}
 
-    font-size: 16px;
-    letter-spacing: 0;
- }
-
- .signUp {
-    color: white;
-    background-color: #4B5066;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    padding-left: 10px;
-    margin-bottom:auto;
- }  
-
- .body-elements {
+.signUp {
+  color: white;
+  background-color: #4B5066;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  /* padding-left: 10px; */
+  width: 82px;
+  height:40px;
+  margin-bottom:auto;
+}  
+ 
+ .bodyContent{
+  background-color: #232836;
+  height: 100vh;
+  }
+ 
+.body-elements {
    text-align:center
  }
  .wlcm {
-   /* text-align:center; */
+  
    color: white;
    font-size: x-large;
    padding-top: 100px;
  } 
  .signUpGoogle {
-   
-   
+   border: none;
+   outline: none;
    margin-top: 40px ;
    font-size: 16px;
    color:white;
    font-family: Lato;
    border-radius: 6px;;
-   padding: 9px 80px 11px 77px;
+   width:330px;
+   height: 40px;
    background-color: #116397;
  }
 
  .googleImage {
+  padding-right:5px;
   
+ }
+ .line-2{
+  box-sizing: border-box;
+  height: 1px;
+  width: 76px;
+  border: 1px solid #434A69;
  }
 
  .sign-option {
@@ -70,47 +83,56 @@ body {
  }
 
  .emailInfo {
-   
+  border: none;
+  outline: none;
    color: grey;
-   margin-top: 40px ;
-   margin-left: 40px;
-   margin-right: 30px;
+    margin-top: 40px ; 
    font-size: 16px;
    border-radius: 6px;;
-   padding: 6px 50px 11px 70px;
+   padding-left:15px;
+   width:320px;
+   height:40px;
    background-color: #4B5066;
  }
 
 .pswrd {
-  
+  border: none;
+   outline: none;
    color: grey;
    margin-top: 10px ;
-   margin-left: 40px;
-   margin-right: 30px;
    font-size: 16px;
    border-radius: 6px;;
-   padding: 6px 50px 11px 70px;
+   width:320px;
+   height:40px;
+   padding-left:15px;
    background-color: #4B5066;
 }
 
  .signUpEmail {
  
-   margin-top: 30px ;
-   margin-left: 20px;
-   margin-right: 12px;
+   border: none;
+   outline: none;
+   margin-top: 40px ;
    font-size: 16px;
    color:white;
    font-family: Lato;
    border-radius: 6px;;
-   padding: 9px 100px 11px 100px;
+   width:330px;
+   height: 40px;
    background-color: #116397;
+  
  }
 
- 
- 
+ .optionalSignIn{
+  margin-top: 20px;
+ }
 
- .bodyContent{
-    background-color: #232836;
-    height: 100vh;
+ .forgotPswrd{
+  color:Grey;
+ }
+
+ .SignInWithOTP {
+  text-decoration: none;
+  color:#009FF9;
  }
  
